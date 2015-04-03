@@ -12,6 +12,9 @@ module.exports = {
       type: "string",
       required: true
     },
+    "topic": {
+      type: "string"
+    },
     "messages": {
       "collection": "Message",
       "via": "channel"
